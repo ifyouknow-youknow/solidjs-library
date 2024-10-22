@@ -1,11 +1,8 @@
 // src/COMPONENTS/Button.jsx
 export function Button(props) {
     return (
-        <button
-            style={{
-                backgroundColor: props.backgroundColor !== undefined ? "black" : `#${props.backgroundColor}`
-            }}
-            onClick={() => { console.log("Button clicked"); }}
+        <button style={{ "background-color": props.backgroundColor !== undefined ? props.backgroundColor : 'red' }}
+            onClick={() => { console.log("All Hail the Nothing Bagel"); }}
         >
             {props.children}
         </button>
