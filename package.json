@@ -1,7 +1,8 @@
 {
   "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Reusable Solidjs library with components and functions.",
+  "main": "./src/index.jsx",
   "scripts": {
     "start": "vite",
     "dev": "vite",
