@@ -2,7 +2,7 @@
   "name": "nothing-bagel-solidjs",
   "version": "1.0.0",
   "description": "Reusable Solidjs library with components and functions.",
-  "main": "./src/index.jsx",
+  "main": "src/index.jsx",
   "scripts": {
     "start": "vite",
     "dev": "vite",

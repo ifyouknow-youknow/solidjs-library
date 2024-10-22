@@ -13,3 +13,5 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 }
 
 render(() => <App />, root);
+
+export { Button } from './COMPONENTS/Button'
