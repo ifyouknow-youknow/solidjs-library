@@ -3,6 +3,7 @@ import { render } from 'solid-js/web';
 
 import './index.css';
 import App from './App';
+import { Button } from './COMPONENTS/Button';
 
 const root = document.getElementById('root');
 
@@ -14,4 +15,4 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 
 render(() => <App />, root);
 
-export { Button } from './COMPONENTS/Button'
+export { Button };
