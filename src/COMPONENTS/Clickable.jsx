@@ -1,4 +1,4 @@
-function Clickable(props) {
+export function Clickable(props) {
     const handleClick = () => {
         if (props.onPress) {
             props.onPress();
@@ -11,5 +11,3 @@ function Clickable(props) {
         </div>
     );
 }
-
-export default Clickable;
