@@ -1,3 +1,4 @@
+// Clickable.jsx
 export function Clickable(props) {
     const handleClick = () => {
         if (props.onPress) {

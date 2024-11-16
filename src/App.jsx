@@ -1,4 +1,5 @@
 import { Button } from "./COMPONENTS/Button";
+import { Clickable } from "./COMPONENTS/Clickable";
 import { Textfield } from "./COMPONENTS/Textfield";
 
 function App() {
